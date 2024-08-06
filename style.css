@@ -1,0 +1,38 @@
+.background-image {
+  background-image: url(BackGround.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+.gfont1 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.info {
+  position: fixed;
+  bottom: 50px;
+  padding: 15px;
+}
+
+.customBorder {
+  border: 3px solid black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+.gfont2 {
+  font-family: "EB Garamond", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
+.gfont3 {
+  font-family: "Kalam", cursive;
+}
