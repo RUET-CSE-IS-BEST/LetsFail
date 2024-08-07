@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "sm-bg": "url('./Background.jpg')",
+        "sm-bg": "url('/Background.jpg')",
       },
       backgroundSize: {
         "bg-size": "100% 100%",
