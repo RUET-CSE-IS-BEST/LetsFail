@@ -51,3 +51,8 @@ body {
 .navbg {
   background: rgb(92, 92, 211);
 }
+
+.mw {
+  /*max-width for series22.html */
+  max-width: 380px;
+}
