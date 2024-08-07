@@ -7,7 +7,14 @@ module.exports = {
     "./Questions/1-2_Questions/*.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "sm-bg": "url('./Background.jpg')",
+      },
+      backgroundSize: {
+        "bg-size": "100% 100%",
+      },
+    },
   },
   plugins: [],
 };

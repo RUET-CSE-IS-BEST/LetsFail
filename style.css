@@ -1,6 +1,4 @@
-.background-image {
-  background-image: url(BackGround.jpg);
-  background-repeat: no-repeat;
+.bgsize {
   background-size: 100% 100%;
 }
 html,
@@ -17,7 +15,7 @@ body {
 }
 .info {
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   padding: 15px;
 }
 
@@ -35,4 +33,21 @@ body {
 
 .gfont3 {
   font-family: "Kalam", cursive;
+}
+
+.bgcolor {
+  background: radial-gradient(circle, #3d4b78 0%, #23315d 100%);
+}
+
+@media (max-height: 715px) and (max-width: 1000px) {
+  .info {
+    position: fixed;
+    bottom: 40px;
+    padding: 15px;
+    display: none;
+  }
+}
+
+.navbg {
+  background: rgb(92, 92, 211);
 }
