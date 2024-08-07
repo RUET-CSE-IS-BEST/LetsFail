@@ -894,7 +894,7 @@ video {
 
 @media (min-width: 640px) {
   .sm\:bg-sm-bg {
-    background-image: url('/Background.jpg');
+    background-image: url('./BackGround.jpg');
   }
 }
 
