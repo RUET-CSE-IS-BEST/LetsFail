@@ -562,40 +562,20 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.ml-16 {
-  margin-left: 4rem;
-}
-
 .ml-5 {
   margin-left: 1.25rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
 }
 
 .mt-16 {
   margin-top: 4rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
-.mr-auto {
-  margin-right: auto;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .hidden {
@@ -638,10 +618,6 @@ video {
   width: 7rem;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-32 {
   width: 8rem;
 }
@@ -662,20 +638,16 @@ video {
   width: 20rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-full {
   width: 100%;
 }
 
-.w-60 {
-  width: 15rem;
-}
-
 .max-w-full {
   max-width: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-col {
@@ -853,10 +825,6 @@ video {
   padding: 0.75rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -934,6 +902,12 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px) {
   .sm\:bg-sm-bg {
     background-image: url('./BackGround.jpg');
@@ -987,10 +961,6 @@ video {
 
   .md\:items-start {
     align-items: flex-start;
-  }
-
-  .md\:items-baseline {
-    align-items: baseline;
   }
 
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {

@@ -5,3 +5,7 @@ body {
 .bgCustom1 {
   background-color: #ae8d60;
 }
+.note.read {
+  background-color: green; /* Green when marked as read */
+  color: white; /* Ensure text is visible on green background */
+}
